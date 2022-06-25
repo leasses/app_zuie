@@ -1,0 +1,362 @@
+{
+  "buildFiles": [
+    "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk",
+    "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "lbitlib-debug-lua": {
+      "artifactName": "lbitlib",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/lbitlib.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\lbitlib.o",
+      "runtimeFiles": []
+    },
+    "lbaselib-debug-lua": {
+      "artifactName": "lbaselib",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/lbaselib.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\lbaselib.o",
+      "runtimeFiles": []
+    },
+    "lstrlib-debug-lua": {
+      "artifactName": "lstrlib",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/lstrlib.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\lstrlib.o",
+      "runtimeFiles": []
+    },
+    "ltable-debug-lua": {
+      "artifactName": "ltable",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/ltable.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\ltable.o",
+      "runtimeFiles": []
+    },
+    "liolib-debug-lua": {
+      "artifactName": "liolib",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/liolib.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\liolib.o",
+      "runtimeFiles": []
+    },
+    "lparser-debug-lua": {
+      "artifactName": "lparser",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/lparser.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\lparser.o",
+      "runtimeFiles": []
+    },
+    "lgc-debug-lua": {
+      "artifactName": "lgc",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/lgc.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\lgc.o",
+      "runtimeFiles": []
+    },
+    "gl-debug-armeabi-v7a": {
+      "artifactName": "gl",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libgl.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libgl.so",
+      "runtimeFiles": []
+    },
+    "lobject-debug-lua": {
+      "artifactName": "lobject",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/lobject.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\lobject.o",
+      "runtimeFiles": []
+    },
+    "lutf8lib-debug-lua": {
+      "artifactName": "lutf8lib",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/lutf8lib.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\lutf8lib.o",
+      "runtimeFiles": []
+    },
+    "bson-debug-armeabi-v7a": {
+      "artifactName": "bson",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libbson.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libbson.so",
+      "runtimeFiles": []
+    },
+    "zlib-debug-armeabi-v7a": {
+      "artifactName": "zlib",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libzlib.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libzlib.so",
+      "runtimeFiles": []
+    },
+    "zip-debug-armeabi-v7a": {
+      "artifactName": "zip",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libzip.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libzip.so",
+      "runtimeFiles": []
+    },
+    "ldump-debug-lua": {
+      "artifactName": "ldump",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/ldump.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\ldump.o",
+      "runtimeFiles": []
+    },
+    "lmathlib-debug-lua": {
+      "artifactName": "lmathlib",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/lmathlib.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\lmathlib.o",
+      "runtimeFiles": []
+    },
+    "sensor-debug-armeabi-v7a": {
+      "artifactName": "sensor",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libsensor.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libsensor.so",
+      "runtimeFiles": []
+    },
+    "lopcodes-debug-lua": {
+      "artifactName": "lopcodes",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/lopcodes.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\lopcodes.o",
+      "runtimeFiles": []
+    },
+    "luac-debug-lua": {
+      "artifactName": "luac",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/luac.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\luac.o",
+      "runtimeFiles": []
+    },
+    "lctype-debug-lua": {
+      "artifactName": "lctype",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/lctype.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\lctype.o",
+      "runtimeFiles": []
+    },
+    "lstate-debug-lua": {
+      "artifactName": "lstate",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/lstate.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\lstate.o",
+      "runtimeFiles": []
+    },
+    "lzio-debug-lua": {
+      "artifactName": "lzio",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/lzio.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\lzio.o",
+      "runtimeFiles": []
+    },
+    "ltablib-debug-lua": {
+      "artifactName": "ltablib",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/ltablib.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\ltablib.o",
+      "runtimeFiles": []
+    },
+    "linit-debug-lua": {
+      "artifactName": "linit",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/linit.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\linit.o",
+      "runtimeFiles": []
+    },
+    "luv-debug-armeabi-v7a": {
+      "artifactName": "luv",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libluv.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libluv.so",
+      "runtimeFiles": []
+    },
+    "ldebug-debug-lua": {
+      "artifactName": "ldebug",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/ldebug.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\ldebug.o",
+      "runtimeFiles": []
+    },
+    "lauxlib-debug-lua": {
+      "artifactName": "lauxlib",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/lauxlib.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\lauxlib.o",
+      "runtimeFiles": []
+    },
+    "lfunc-debug-lua": {
+      "artifactName": "lfunc",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/lfunc.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\lfunc.o",
+      "runtimeFiles": []
+    },
+    "ltm-debug-lua": {
+      "artifactName": "ltm",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/ltm.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\ltm.o",
+      "runtimeFiles": []
+    },
+    "lcode-debug-lua": {
+      "artifactName": "lcode",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/lcode.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\lcode.o",
+      "runtimeFiles": []
+    },
+    "xml-debug-armeabi-v7a": {
+      "artifactName": "xml",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libxml.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libxml.so",
+      "runtimeFiles": []
+    },
+    "md5-debug-armeabi-v7a": {
+      "artifactName": "md5",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libmd5.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libmd5.so",
+      "runtimeFiles": []
+    },
+    "llex-debug-lua": {
+      "artifactName": "llex",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/llex.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\llex.o",
+      "runtimeFiles": []
+    },
+    "lua-debug-lua": {
+      "artifactName": "lua",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/lua.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\lua.o",
+      "runtimeFiles": []
+    },
+    "lmem-debug-lua": {
+      "artifactName": "lmem",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/lmem.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\lmem.o",
+      "runtimeFiles": []
+    },
+    "mime-debug-armeabi-v7a": {
+      "artifactName": "mime",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libmime.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libmime.so",
+      "runtimeFiles": []
+    },
+    "lcorolib-debug-lua": {
+      "artifactName": "lcorolib",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/lcorolib.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\lcorolib.o",
+      "runtimeFiles": []
+    },
+    "ldblib-debug-lua": {
+      "artifactName": "ldblib",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/ldblib.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\ldblib.o",
+      "runtimeFiles": []
+    },
+    "lstring-debug-lua": {
+      "artifactName": "lstring",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/lstring.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\lstring.o",
+      "runtimeFiles": []
+    },
+    "crypt-debug-armeabi-v7a": {
+      "artifactName": "crypt",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libcrypt.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libcrypt.so",
+      "runtimeFiles": []
+    },
+    "lvm-debug-lua": {
+      "artifactName": "lvm",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/lvm.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\lvm.o",
+      "runtimeFiles": []
+    },
+    "cjson-debug-armeabi-v7a": {
+      "artifactName": "cjson",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libcjson.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libcjson.so",
+      "runtimeFiles": []
+    },
+    "lapi-debug-lua": {
+      "artifactName": "lapi",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/lapi.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\lapi.o",
+      "runtimeFiles": []
+    },
+    "loslib-debug-lua": {
+      "artifactName": "loslib",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/loslib.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\loslib.o",
+      "runtimeFiles": []
+    },
+    "luajava-debug-armeabi-v7a": {
+      "artifactName": "luajava",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libluajava.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libluajava.so",
+      "runtimeFiles": []
+    },
+    "regex-debug-armeabi-v7a": {
+      "artifactName": "regex",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libregex.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libregex.so",
+      "runtimeFiles": []
+    },
+    "lundump-debug-lua": {
+      "artifactName": "lundump",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/lundump.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\lundump.o",
+      "runtimeFiles": []
+    },
+    "ldo-debug-lua": {
+      "artifactName": "ldo",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/ldo.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\ldo.o",
+      "runtimeFiles": []
+    },
+    "socket-debug-armeabi-v7a": {
+      "artifactName": "socket",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libsocket.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libsocket.so",
+      "runtimeFiles": []
+    },
+    "loadlib-debug-lua": {
+      "artifactName": "loadlib",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/lua/loadlib.o",
+      "abi": "lua",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\objs-debug\\lua\\loadlib.o",
+      "runtimeFiles": []
+    },
+    "canvas-debug-armeabi-v7a": {
+      "artifactName": "canvas",
+      "buildCommand": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\android.mk NDK_APPLICATION_MK\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dD:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Code/AndroidStudio/AndroLua_pro-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libcanvas.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Code\\AndroidStudio\\AndroLua_pro-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libcanvas.so",
+      "runtimeFiles": []
+    }
+  }
+}

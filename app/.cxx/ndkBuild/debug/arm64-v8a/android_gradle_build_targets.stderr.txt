@@ -1,0 +1,79 @@
+D:/Code/AndroidStudio/AndroLua_pro-master/app/src/main/jni/luajava/luajava.c:2283:50: warning: passing 'char *' to parameter of type 'jbyte *' (aka 'signed char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    (*env)->ReleaseByteArrayElements(env, bytes, cBytes, 0);
+                                                 ^~~~~~
+1 warning generated.
+D:/Code/AndroidStudio/AndroLua_pro-master/app/src/main/jni/lua/lundump.c:237:33: warning: adding 'int' to a string does not append to the string [-Wstring-plus-int]
+  checkliteral(S, LUA_SIGNATURE + 1, "not a");  /* 1st char already checked */
+                  ~~~~~~~~~~~~~~^~~
+D:/Code/AndroidStudio/AndroLua_pro-master/app/src/main/jni/lua/lundump.c:237:33: note: use array indexing to silence this warning
+  checkliteral(S, LUA_SIGNATURE + 1, "not a");  /* 1st char already checked */
+                                ^
+                  &             [  ]
+1 warning generated.
+In file included from D:/Code/AndroidStudio/AndroLua_pro-master/app/src/main/jni/cjson/lua_cjson.c:47:
+D:/Code/AndroidStudio/AndroLua_pro-master/app/src/main/jni/cjson/fpconv.h:15:20: warning: inline function 'fpconv_init' is not defined [-Wundefined-inline]
+extern inline void fpconv_init();
+                   ^
+D:/Code/AndroidStudio/AndroLua_pro-master/app/src/main/jni/cjson/lua_cjson.c:1367:5: note: used here
+    fpconv_init();
+    ^
+1 warning generated.
+D:/Code/AndroidStudio/AndroLua_pro-master/app/src/main/jni/crypt/lcrypt.c:359:37: warning: pointer type mismatch ('const char *' and 'const uint32_t *' (aka 'const unsigned int *')) [-Wpointer-type-mismatch]
+        const void * key = lua_gettop(L)>1 ? luaL_checklstring(L, 1, &keysz) : DK;
+                                           ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   ~~
+1 warning generated.
+D:/Code/AndroidStudio/AndroLua_pro-master/app/src/main/jni/luagl/luagl.c:724:3: warning: implicit declaration of function 'glInitNames' is invalid in C99 [-Wimplicit-function-declaration]
+  glInitNames();
+  ^
+D:/Code/AndroidStudio/AndroLua_pro-master/app/src/main/jni/luagl/luagl.c:1177:29: warning: passing 'GLbyte *' (aka 'signed char *') to parameter of type 'char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+      luagl_to_arrayc(L, 3, data);
+                            ^~~~
+D:/Code/AndroidStudio/AndroLua_pro-master/app/src/main/jni/luagl/luagl_util.h:37:53: note: passing argument to parameter 'parray' here
+void luagl_to_arrayc(lua_State *L, int index, char *parray);
+                                                    ^
+D:/Code/AndroidStudio/AndroLua_pro-master/app/src/main/jni/luagl/luagl.c:1226:28: warning: passing 'GLbyte *' (aka 'signed char *') to parameter of type 'char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+      luagl_push_arrayc(L, data, size);
+                           ^~~~
+D:/Code/AndroidStudio/AndroLua_pro-master/app/src/main/jni/luagl/luagl_util.h:26:44: note: passing argument to parameter 'parray' here
+void luagl_push_arrayc(lua_State *L, char* parray, int size);
+                                           ^
+3 warnings generated.
+In file included from D:/Code/AndroidStudio/AndroLua_pro-master/app/src/main/jni/regex/lposix.c:9:
+D:/Code/AndroidStudio/AndroLua_pro-master/app/src/main/jni/regex/common.h:10:10: warning: 'lua_objlen' macro redefined [-Wmacro-redefined]
+# define lua_objlen lua_rawlen
+         ^
+D:/Code/AndroidStudio/AndroLua_pro-master/app/src/main/jni/regex/../lua/luaconf.h:384:9: note: previous definition is here
+#define lua_objlen(L,i)         lua_rawlen(L, (i))
+        ^
+1 warning generated.
+In file included from D:/Code/AndroidStudio/AndroLua_pro-master/app/src/main/jni/regex/common.c:9:
+D:/Code/AndroidStudio/AndroLua_pro-master/app/src/main/jni/regex/common.h:10:10: warning: 'lua_objlen' macro redefined [-Wmacro-redefined]
+# define lua_objlen lua_rawlen
+         ^
+D:/Code/AndroidStudio/AndroLua_pro-master/app/src/main/jni/regex/../lua/luaconf.h:384:9: note: previous definition is here
+#define lua_objlen(L,i)         lua_rawlen(L, (i))
+        ^
+1 warning generated.
+D:/Code/AndroidStudio/AndroLua_pro-master/app/src/main/jni/zip/lua_zip.c:9:9: warning: 'lua_objlen' macro redefined [-Wmacro-redefined]
+#define lua_objlen lua_rawlen
+        ^
+D:/Code/AndroidStudio/AndroLua_pro-master/app/src/main/jni/zip/../lua/luaconf.h:384:9: note: previous definition is here
+#define lua_objlen(L,i)         lua_rawlen(L, (i))
+        ^
+D:/Code/AndroidStudio/AndroLua_pro-master/app/src/main/jni/zip/lua_zip.c:13:9: warning: 'lua_equal' macro redefined [-Wmacro-redefined]
+#define lua_equal(L, idx1, idx2) lua_compare((L), (idx1), (idx2), LUA_OPEQ)
+        ^
+D:/Code/AndroidStudio/AndroLua_pro-master/app/src/main/jni/zip/../lua/luaconf.h:386:9: note: previous definition is here
+#define lua_equal(L,idx1,idx2)          lua_compare(L,(idx1),(idx2),LUA_OPEQ)
+        ^
+D:/Code/AndroidStudio/AndroLua_pro-master/app/src/main/jni/zip/lua_zip.c:17:9: warning: 'luaL_register' macro redefined [-Wmacro-redefined]
+#define luaL_register(L,_,funcs) luaL_setfuncs((L),funcs,0)
+        ^
+D:/Code/AndroidStudio/AndroLua_pro-master/app/src/main/jni/zip/../lua\lauxlib.h:205:9: note: previous definition is here
+#define luaL_register(L,n,l)    (luaL_openlib(L,(n),(l),0))
+        ^
+3 warnings generated.
+D:/Code/AndroidStudio/AndroLua_pro-master/app/src/main/jni/zip/mkstemp.c:66:8: warning: implicit declaration of function 'getpid' is invalid in C99 [-Wimplicit-function-declaration]
+        pid = getpid();
+              ^
+1 warning generated.

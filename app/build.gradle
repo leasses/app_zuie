@@ -1,0 +1,51 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId 'anroluax'
+        minSdkVersion 21
+        //noinspection ExpiredTargetSdkVersion
+        targetSdkVersion 28
+        versionCode 1101
+        versionName '1.α1'
+        ndk {
+            abiFilters 'arm64-v8a'
+        }
+        versionNameSuffix 'Apricot'
+    }
+    packagingOptions {
+        exclude 'META-INF/proguard/androidx-annotations.pro'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+        debug {
+            debuggable true
+            jniDebuggable true
+        }
+    }
+    externalNativeBuild {
+        ndkBuild {
+            path 'src/main/jni/android.mk'
+        }
+    }
+    productFlavors {
+
+    }
+    ndkVersion '24.0.8215888'
+}
+
+dependencies {
+    //noinspection GradleDependency
+    implementation 'androidx.annotation:annotation:1.2.0'
+    implementation 'io.github.Rosemoe.sora-editor:editor:0.12.0'
+    implementation 'io.github.Rosemoe.sora-editor:language-java:0.12.0'
+    implementation 'com.google.android.material:material:1.4.0'
+
+}
